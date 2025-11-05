@@ -1,5 +1,6 @@
 {
   "name": "travel-review-frontend",
+  "type": "module",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,11 +9,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "npx": "^10.2.2",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.9.5"
   },
   "devDependencies": {
-    "vite": "^5.4.8",
-    "@vitejs/plugin-react": "^4.3.1"
+    "@tailwindcss/postcss": "^4.1.16",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.16",
+    "vite": "^5.4.8"
   }
 }
